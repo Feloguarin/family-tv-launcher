@@ -1,0 +1,33 @@
+# Packages that must NEVER be disabled. One package per line; '#' starts a comment.
+# Phone remote (Google Home / Google TV app) — the only remote we have
+com.google.android.tv.remote.service
+# Core Google / system
+com.google.android.gms
+com.google.android.gsf
+com.android.vending
+com.android.systemui
+com.android.settings
+com.android.tv.settings
+com.android.providers.settings
+com.android.shell
+com.android.bluetooth
+com.android.networkstack
+com.android.networkstack.tethering
+com.android.wifi.resources
+com.google.android.tungsten.setupwraith
+com.google.android.tvrecommendations
+# Keyboard / input (typing from the phone keyboard)
+com.google.android.inputmethod.latin
+com.google.android.leanback.ime
+com.google.android.katniss
+# Hisense / MediaTek TV core (tuner, inputs/HDMI, picture, updates)
+com.mediatek.tv.service
+com.mediatek.wwtv.tvcenter
+com.mediatek.network
+com.hisense.tv.hitvinput
+com.hisense.tv.smartservice
+com.hisense.tv.protector
+com.hisense.tv.ota
+com.hisense.remoteupgrade
+# Screensaver: user keeps Google Ambient mode (decided Oct 23)
+com.google.android.apps.tv.dreamx

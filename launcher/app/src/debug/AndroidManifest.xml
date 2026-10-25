@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <!--
+            Debug builds only: lets adb make the launcher press keys through TV control, to test it
+            end to end on the emulator. Guarded by DUMP, which the adb shell has and apps don't.
+        -->
+        <receiver
+            android:name=".debug.DebugKeysReceiver"
+            android:exported="true"
+            android:permission="android.permission.DUMP">
+            <intent-filter>
+                <action android:name="familytv.launcher.DEBUG_KEYS" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

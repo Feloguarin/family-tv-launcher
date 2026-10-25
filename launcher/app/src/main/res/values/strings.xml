@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Family TV</string>
+    <string name="screen_reader_description">Lets the Family TV launcher check that a streaming app opened the right show before pressing Play.</string>
+</resources>

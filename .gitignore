@@ -1,0 +1,17 @@
+snapshots/
+shots/
+.DS_Store
+launcher/.gradle/
+launcher/build/
+launcher/app/build/
+launcher/local.properties
+launcher/.kotlin/
+.claude/
+# Never commit secrets or device data
+*.keystore
+*.jks
+.env
+*.env
+adbkey
+adbkey.pub
+*.pem
